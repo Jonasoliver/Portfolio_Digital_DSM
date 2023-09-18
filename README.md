@@ -29,3 +29,5 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 
 1. Ter um computador.
 2. Instalar uma ferramenta de desenvolvimento web. Aperte [aqui](https://www.hostinger.com.br/tutoriais/ferramentas-de-desenvolvimento-web) para acessar um link onde exibe-se algumas ferramentas desse tipo.
+
+(Validação professor FGMC - 1DSM - 2023-02)
