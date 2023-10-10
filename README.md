@@ -1,9 +1,9 @@
 # Bem-vindo ao meu portfólio
 ## Autor: Jonas Miguel de Oliveira
 <p align= "center">
-<img src="./src/static/foto.jpg" width= "190" height= "250" border-radius: 50% alt= "minha foto">
+<img src="./src/static/foto.jpg" width= "190" height= "250" alt= "minha foto" style="border-radius: 50%;">
 </p>
-
+ 
 ## Tecnologias
 
 As tecnologias que foram utilizadas são:
