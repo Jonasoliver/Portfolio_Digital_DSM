@@ -1,7 +1,7 @@
 # Bem-vindo ao meu portifólio
 ## Autor: Jonas Miguel de Oliveira
 <p align= "center">
-<img src="./src/static/foto.jpg" width= "400" height= "510" alt= "minha foto">
+<img src="./src/static/foto.jpg" width= "400" height= "500" alt= "minha foto">
 </p>
 
 ## Tecnologias
