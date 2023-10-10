@@ -28,7 +28,18 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 	git clone https://github.com/Jonasoliver/portfolio_digital_dsm.git  .
 ```
 3. Abrir a pasta raiz no Visual Studio Code
-4. Digitar o comando flask run no terminal
+4. Com o terminal aberto na pasta raiz, digitar:
+-Python -m venv venv
+5. Após a criação da pasta venv, digitar:
+- .\venv\Scripts\activate
+6. Já dentro da pasta venv digitar o código:
+- pip install flask
+7. Dentro da pasta venv criar um arquivo req.txt
+8. Digitar no terminal:
+ - pip freeze > req.txt
+9. Após executar estes passos digitar:
+- flask run
+10. Acessar o link segurando a tecla Ctrl e clicando com o botão esquerdo do mouse
 ## Como iniciar o seu projeto
 
 1. Ter um computador.
