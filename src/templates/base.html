@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block title %} {% endblock %} </title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+ <div class="nav-bar">
+    <a href="/">Home</a> 
+    <a href="/sobremim">sobre mim</a> 
+    <a href="/trabalhos">Trabalhos</a>
+</div>
+    
+{% block content %}
+{% endblock %}
+
+</body>
+<div class="footer">
+
+<a href="https://www.instagram.com/jonaasmiguel/"><img id="logo" src="{{url_for('static', filename="insta.png")}}">
+<a href="https://github.com/Jonasoliver"><img id="logo" src="{{url_for('static', filename="git.png")}}">
+<a href="https://www.linkedin.com/in/jonas-miguel-ol/"><img id="logo" src="{{url_for('static', filename="linkedin.png")}}">
+</div>
+</html>
