@@ -10,12 +10,14 @@ As tecnologias que foram utilizadas são:
 * HTML: uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.
 * CSS: mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags <style>.
 * Python:  uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
+* Flask:  é um pequeno framework web escrito em Python.
 
 ## Descrição das pastas
 
 1. doc: documentação do projeto
 2. src: código-fonte do projeto
-
+3. static: imagens e css do projeto
+4. templates: html do projeto
 
 ## Como utilizar o diretório
 
@@ -25,6 +27,8 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 ```console
 	git clone https://github.com/Jonasoliver/portfolio_digital_dsm.git  .
 ```
+3. Abrir a pasta raiz no Visual Studio Code
+4. Digitar o comando flask run no terminal
 ## Como iniciar o seu projeto
 
 1. Ter um computador.
