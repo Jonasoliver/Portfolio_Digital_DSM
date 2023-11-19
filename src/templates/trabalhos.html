@@ -4,36 +4,27 @@ Contatos
 {% endblock %}
 
 {% block content %}
-<main>
-    <section>
-        <h2>Trabalhos realizados</h2>
-        <p>Os trabalhos realizados por mim na faculdade até hoje foram 2 sprints do Projeto API.</p>
-        <h4>Nome do grupo:</h4>
-        <p>Code Nine</p>
-        <h4>Lista das etapas realizadas no trabalho:</h4>
-        <p>-Montagem do grupo
-        -descrição do problema
-        -Construção do Backlog
-        -Divisão de tarefas entre os integrantes
-        -Construção do portifólio fo GitHUb
-        -Protótipo navegável do projeto
-        -Apresentação da primeira sprint</p>
-        <h4>Descrição do trabalho:</h4>
-        <p>O projeto realizado visa ajudar aos pais de crianças que sofrem de doença renal crônica, 
-            ajudando na informatização, como por exemplo onde há hospitais no Brasil especializados na área, 
-            quais os cuidados devem ser tomados com crianças assim, uma área de conversas, troca de mensagens entre os pais, para tirar possíveis dúvidas.</p>
-       <hr></hr>
-            <h3>Trabalhos profissionais:</h3>
-        <p>Eu ainda não realizei nenhum trabalho profissional na área,
-            mas aguardo ansiosamente por esse momento, preparando-me para ser um bom profissional</p>
-        <hr></hr>
-        <h3>Trabalhos pessoais:</h3>
-        <p>Como trabalho pessoal, eu gostaria de citar o projeto API,
-            pois como um aluno ainda, eu estou aprendendo a desenvolver, então ainda
-            não tenho projetos pessoais, então gostaria de deixar o link para o repositorio do GitHub com o projeto:
-        </p>
-        <a href="https://github.com/Code-Nine-FTC/Grupo-Code-Nine"><img id="logo" src="{{url_for('static', filename="git.png")}}">
 
-        </section>
-</main>
+<div class="container mt-5 text-center custom-section">
+    <h2>Trabalhos realizados por mim:</h2>
+    <p>Eu ainda não realizei nenhum trabalho ou projeto para alguma empresa, mas como aluno eu possuo alguns projetos, seja pessoais ou em grupo.</p>
+</div>
+
+{% for trabalho in trabalhos %}
+    <div class="container mt-4 custom-section">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>{{ trabalho['titulo'] }}</h2>
+                <p>{{ trabalho['descricao'] }}</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6 offset-md-3 text-center">
+                <img src="{{ trabalho['imagem'] }}" alt="Foto do Trabalho" class="img-fluid rounded custom-img" style="max-width: 500px;">
+            </div>
+        </div>
+    </div>
+    <br>
+{% endfor %}
+
 {% endblock %}
