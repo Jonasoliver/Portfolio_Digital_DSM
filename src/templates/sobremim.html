@@ -4,26 +4,62 @@ Contatos
 {% endblock %}
 
 {% block content %}
-<main>
-    <img src="../static/foto.jpg"></img>
-    <section>
-
-<h2>Um pouco sobre mim</h2>
-<p> Eu me chamo Jonas Miguel de Oliveira, tenho 19 anos, 
-    estou cursando o primeiro semestre de Desenvolvimento de Sotftware Multiplataforma, 
-    na Faculdade de tecnologia Fatec Jessen Vidal. Sou brasileiro, de São José dos Campos,
-    sou um jovem católico que ama programar.</p>
-    <h2>O que eu gosto de fazer:</h2>
-    <p>Como aluno da Fatec, uma das coisas que eu mais gosto é de mexer com computação.
-        Mas eu também gosto de fazer outras coisas fora do ambiente profissional ou educativo, como por exemplo:
-        -Fazer trilha de bicicleta: Este é um dos meus esportes favoritos
-        -Tocar violão: Violão é um instrumento que me ajuda a descansar, e produz belos sons.
-        -Tocar viola caipira: Este em si, é o meu instrumento favorito, devido a uma tradição familiar
-        -Trabalho voluntário: Gosto muito de trabalho voluntário realizado em grupos da igreja Católica,
-         para ajudar aos necessitados
-    </p>
-</section>
-
-</main>
-
+<div class="container-fluid d-flex align-items-center justify-content-center mt-5">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <img src="../static/eu.jpg" alt="Sua Foto" class="img-fluid rounded-circle custom-img">
+        </div>
+        <div class="col-md-6 text-center">
+            <div class="p-5">
+                <h2>Um pouco sobre mim:</h2>
+                <p>Eu me chamo Jonas Miguel de Oliveira, tenho 19 anos, 
+                    estou cursando o primeiro semestre de Desenvolvimento de Sotftware Multiplataforma, 
+                    na Faculdade de tecnologia Fatec Jessen Vidal. Sou brasileiro, de São José dos Campos,
+                    sou um jovem católico que ama programar.</p>
+                <p>Como aluno da Fatec, uma das coisas que eu mais gosto é de mexer com computação.
+                    Mas eu também gosto de fazer outras coisas fora do ambiente profissional ou educativo, como por exemplo:</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid d-flex align-items-center justify-content-center mt-5">
+    <div class="row">
+        <div class="col-md-6 text-center order-md-2">
+            <img src="../static/bike.jpg" alt="Sua Foto 2" class="img-fluid rounded-circle custom-img">
+        </div>
+        <div class="col-md-6 text-center order-md-1">
+            <div class="p-5">
+                <h2>Andar de Bike:</h2>
+                <p>Eu gosto muito de fazer trilhas de Bike, gosto muito de apreciar a natureza e estar em contato com ela, fazendo uma trilha por exemplo.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid d-flex align-items-center justify-content-center mt-5">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <img src="../static/viola.jpg" alt="Sua Foto" class="img-fluid rounded-circle custom-img">
+        </div>
+        <div class="col-md-6 text-center ">
+            <div class="p-5">
+                <h2>Tocar Viola Caipira:</h2>
+                <p>Eu gosto muito de tocar Viola Caipira, por uma tradição familiar e por apreciar as belas melodias produzidas por este instrumento.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid d-flex align-items-center justify-content-center mt-5 ">
+    <div class="row">
+        <div class="col-md-6 text-center order-md-2">
+            <img src="../static/igreja.jpg" alt="Sua Foto 2" class="img-fluid rounded-circle custom-img">
+        </div>
+        <div class="col-md-6 text-center order-md-1">
+            <div class="p-5 ">
+                <h2>Conhecer igrejas pré-conciliares:</h2>
+                <p>Eu adoro visitar igrejas pré-conciliares, devido a suas arquiteturas admiraveis e belas, com pinturas e vitrais únicos, estruturas que presenciaram diversas transubstanciações ao longo da história.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
 {% endblock %}
