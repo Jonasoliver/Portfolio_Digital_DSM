@@ -14,7 +14,7 @@ As tecnologias que foram utilizadas são:
 
 ## Descrição das pastas
 
-1. doc: documentação do projeto
+1. mgt: pdf do figma do portfólio
 2. src: código-fonte do projeto
 3. static: imagens e css do projeto
 4. templates: html do projeto
@@ -27,25 +27,25 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 ```console
 	git clone https://github.com/Jonasoliver/portfolio_digital_dsm.git  .
 ```
-3. Abrir a pasta raiz no Visual Studio Code
+3. Abrir a pasta raiz
 4. Com o terminal aberto na pasta raiz, digitar:
 -Python -m venv venv
 5. Após a criação da pasta venv, digitar:
 - .\venv\Scripts\activate
 6. Já dentro da pasta venv digitar o código:
 - pip install flask
-7. Geralmente o arquivo req.txt vem automaticamente, caso isso não aconteça execute os passos 8 e 9:
-8. dentro da pasta raiz criar um arquivo req.txt
+7. Geralmente o arquivo req.txt vem automaticamente, caso isso não aconteça execute o passo 8 e 9:
+8. dentro da pasta raiz criar um arquivo requirements.txt
 9. Digitar no terminal:
- - pip freeze > req.txt
+ - pip freeze > requirements.txt
 10. Após executar estes passos digitar:
 - cd ./src
 11. Já dentro da pasta src, onde se encontra o app.py, digitar:
-- flask run
+- flask run ou python app.py
 12. Acessar o link segurando a tecla Ctrl e clicando com o botão esquerdo do mouse
 ## Como iniciar o seu projeto
 
 1. Ter um computador.
-2. Instalar uma ferramenta de desenvolvimento web. Aperte [aqui](https://www.hostinger.com.br/tutoriais/ferramentas-de-desenvolvimento-web) para acessar um link onde exibe-se algumas ferramentas desse tipo.
+2. Utilizar o terminal ou caso prefira, instalar uma ferramenta de desenvolvimento web. Aperte [aqui](https://www.hostinger.com.br/tutoriais/ferramentas-de-desenvolvimento-web) para acessar um link onde exibe-se algumas ferramentas desse tipo.
 
 (Validação professor FGMC - 1DSM - 2023-02)
