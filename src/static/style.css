@@ -5,7 +5,7 @@ body {
 }
 
 .content {
-    flex: 1; /* O conteúdo irá ocupar o espaço restante */
+    flex: 1; 
 }
 
 .footer {
@@ -16,7 +16,7 @@ body {
 }
 
 .custom-img {
-    max-width: 350px; /* ou o tamanho desejado */
+    max-width: 350px; 
 
     
 }
@@ -30,4 +30,31 @@ body {
 .custom-imge {
     max-width: 100%;
     height: auto;
+}
+
+
+
+/* controla a imagem minha, tornando-a responsiva e adicionando o filtro*/
+
+.container-fluid {
+    text-align: center;
+}
+
+.img-container {
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+    .img-container img {
+        content: url("../static/eu-pequeno.jpg");
+        filter: grayscale(100%);
+    }
 }

@@ -4,16 +4,24 @@ Contatos
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid d-flex align-items-center justify-content-center mt-5">
+<style>
+    /* Importação da Fonte do Google Fonts usando @import */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+</style>
+<div class="container-fluid mt-5">
     <div class="row">
-        <div class="col-md-6 text-center">
-            <img src="../static/eu.jpg" alt="Sua Foto" class="img-fluid rounded-circle custom-img" style="max-width: 80%;">
+        <div class="col-md-6 text-center img-container">
+            <img src="../static/eu.jpg" style="max-width: 70%;" alt="Sua Foto" class="img-fluid rounded-circle custom-img">
         </div>
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center info-container">
             <div class="p-5">
                 <h2>Um pouco sobre mim:</h2>
                 <p>Eu me chamo Jonas Miguel de Oliveira, tenho 19 anos, 
-                    estou cursando o primeiro semestre de Desenvolvimento de Sotftware Multiplataforma, 
+                    estou cursando o primeiro semestre de Desenvolvimento de Software Multiplataforma, 
                     na Faculdade de tecnologia Fatec Jessen Vidal. Sou brasileiro, de São José dos Campos,
                     sou um jovem católico que ama programar.</p>
                 <p>Como aluno da Fatec, uma das coisas que eu mais gosto é de mexer com computação.
@@ -25,7 +33,7 @@ Contatos
 <div class="container-fluid d-flex align-items-center justify-content-center mt-5">
     <div class="row">
         <div class="col-md-6 text-center order-md-2">
-            <img src="../static/bike.jpg" alt="Sua Foto 2" class="img-fluid rounded-circle custom-img" style="max-width: 80%;">
+            <img src="../static/bike.jpg" alt="Sua Foto 2" class="img-fluid rounded-circle custom-img" style="max-width: 70%;">
         </div>
         <div class="col-md-6 text-center order-md-1">
             <div class="p-5">
@@ -38,7 +46,7 @@ Contatos
 <div class="container-fluid d-flex align-items-center justify-content-center mt-5">
     <div class="row">
         <div class="col-md-6 text-center">
-            <img src="../static/viola.jpg" alt="Sua Foto" class="img-fluid rounded-circle custom-img" style="max-width: 80%;">
+            <img src="../static/viola.jpg" alt="Sua Foto" class="img-fluid rounded-circle custom-img" style="max-width: 70%;">
         </div>
         <div class="col-md-6 text-center ">
             <div class="p-5">
@@ -51,7 +59,7 @@ Contatos
 <div class="container-fluid d-flex align-items-center justify-content-center mt-5 ">
     <div class="row">
         <div class="col-md-6 text-center order-md-2">
-            <img src="../static/igreja.jpg" alt="Sua Foto 2" class="img-fluid rounded-circle custom-img" style="max-width: 80%;">
+            <img src="../static/igreja.jpg" alt="Sua Foto 2" class="img-fluid rounded-circle custom-img" style="max-width: 70%;">
         </div>
         <div class="col-md-6 text-center order-md-1">
             <div class="p-5 ">
