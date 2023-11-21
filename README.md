@@ -3,6 +3,9 @@
 <p align= "center">
 <img src="./src/static/eu.jpg" width= "auto" height= "250" alt= "minha foto">
 </p>
+
+## Visite o meu portfólio por este link:
+https://portfolio-jonas-dsm.vercel.app/
  
 ## Tecnologias
 
