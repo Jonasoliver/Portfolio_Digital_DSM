@@ -49,5 +49,8 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 
 1. Ter um computador.
 2. Utilizar o terminal ou caso prefira, instalar uma ferramenta de desenvolvimento web. Aperte [aqui](https://www.hostinger.com.br/tutoriais/ferramentas-de-desenvolvimento-web) para acessar um link onde exibe-se algumas ferramentas desse tipo.
-
+## Como subir o portfolio no vercel
+1. Baixe em seu compudador o node, caso ainda não o possua, baixe-o aqui [node.js](https://nodejs.org/en)
+2. Na pasta raiz do projeto, abra o terminal  (npm install -g vercel)
+3. Após a instalação digite no terminal (vercel), dê um nome para a pasta e suba para o vercel.
 (Validação professor FGMC - 1DSM - 2023-02)
