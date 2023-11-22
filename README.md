@@ -1,7 +1,7 @@
 # Bem-vindo ao meu portfólio
 ## Autor: Jonas Miguel de Oliveira
 <p align= "center">
-<img src="./src/static/eu.jpg" width= "auto" height= "250" alt= "minha foto">
+<img src="./api/static/eu.jpg" width= "auto" height= "250" alt= "minha foto">
 </p>
 
 ## Visite o meu portfólio por este link:
@@ -10,10 +10,10 @@ https://portfolio-jonas-dsm.vercel.app/
 ## Tecnologias
 
 As tecnologias que foram utilizadas são:
-* HTML: uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. <img src="./src/static/html.png" width= "27" height= "27" alt= "html foto">
-* CSS: mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags <style>. <img src="./src/static/css.png" width= "27" height= "27" alt= "css foto">
-* Python:  uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. <img src="./src/static/python.png" width= "27" height= "27" alt= "css foto">
-* Flask:  é um pequeno framework web escrito em Python. <img src="./src/static/flask.png" width= "32" height= "32" alt= "css foto">
+* HTML: uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. <img src="./api/static/html.png" width= "27" height= "27" alt= "html foto">
+* CSS: mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags <style>. <img src="./api/static/css.png" width= "27" height= "27" alt= "css foto">
+* Python:  uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. <img src="./api/static/python.png" width= "27" height= "27" alt= "css foto">
+* Flask:  é um pequeno framework web escrito em Python. <img src="./api/static/flask.png" width= "32" height= "32" alt= "css foto">
 
 ## Descrição das pastas
 
