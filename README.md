@@ -40,7 +40,7 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 - pip install flask
 7. Geralmente o arquivo requirements.txt vem automaticamente após instaalar o Flask, caso isso não aconteça execute o passo 8
 8. Digitar no terminal:
- - pip freeze > requirements.txt
+ - pip install -r ./requirements.txt
 9. Após executar estes passos digitar:
 - cd ./api
 11. Já dentro da pasta src, onde se encontra o app.py, digitar:
