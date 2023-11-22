@@ -42,7 +42,7 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 8. Digitar no terminal:
  - pip freeze > requirements.txt
 9. Após executar estes passos digitar:
-- cd ./src
+- cd ./api
 11. Já dentro da pasta src, onde se encontra o app.py, digitar:
 - flask run ou python app.py
 12. Acessar o link segurando a tecla Ctrl e clicando com o botão esquerdo do mouse
