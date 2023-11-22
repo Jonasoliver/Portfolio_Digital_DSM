@@ -15,12 +15,13 @@ As tecnologias que foram utilizadas são:
 * Python:  uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. <img src="./api/static/python.png" width= "27" height= "27" alt= "css foto">
 * Flask:  é um pequeno framework web escrito em Python. <img src="./api/static/flask.png" width= "32" height= "32" alt= "css foto">
 
-## Descrição das pastas
+## Descrição das pastas e arquivos
 
-1. mgt: pdf do figma do portfólio
-2. src: código-fonte do projeto
+1. mgt: arquivo pdf do portfolio feito no figma
+2. api: código-fonte do projeto
 3. static: imagens e css do projeto
 4. templates: html do projeto
+5. vercel.json: Arquivo de configuração do vercel
 
 ## Como utilizar o diretório
 
@@ -49,8 +50,9 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 
 1. Ter um computador.
 2. Utilizar o terminal ou caso prefira, instalar uma ferramenta de desenvolvimento web. Aperte [aqui](https://www.hostinger.com.br/tutoriais/ferramentas-de-desenvolvimento-web) para acessar um link onde exibe-se algumas ferramentas desse tipo.
-## Como subir o portfolio no vercel
+## Como fazer deploy no vercel
 1. Baixe em seu compudador o node, caso ainda não o possua, baixe-o aqui [node.js](https://nodejs.org/en)
 2. Na pasta raiz do projeto, abra o terminal  (npm install -g vercel)
 3. Após a instalação digite no terminal (vercel), dê um nome para a pasta e suba para o vercel.
+<br>
 (Validação professor FGMC - 1DSM - 2023-02)
