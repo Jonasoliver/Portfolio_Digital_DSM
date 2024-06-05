@@ -33,12 +33,12 @@ Como construir e executar o projeto (Windows / prompt de comandos):
 ```
 3. Abrir a pasta raiz
 4. Com o terminal aberto na pasta raiz, digitar:
--Python -m venv venv
+- Python -m venv venv
 5. Após a criação da pasta venv, digitar:
 - .\venv\Scripts\activate
 6. Já dentro da pasta venv digitar o código:
 - pip install flask
-7. Geralmente o arquivo requirements.txt vem automaticamente após instaalar o Flask, caso isso não aconteça execute o passo 8
+7. Geralmente o arquivo requirements.txt vem automaticamente após instalar o Flask, caso isso não aconteça execute o passo 8
 8. Digitar no terminal:
  - pip install -r ./requirements.txt
 9. Após executar estes passos digitar:
