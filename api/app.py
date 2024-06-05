@@ -14,6 +14,11 @@ trabalhos = [
         'descricao': 'Este projeto foi para a aprendizagem, visando a utilização do bootstrap e a capacidade de desenvolver uma arte própria em seu site, referindo-me ao front end.',
         'imagem': '../static/arte.jpeg'
     },
+        {
+        'titulo': 'Projeto API',
+        'descricao': 'Este projeto Api foi desenvolvido utilizando React. O projeto é um site de atendimento ao cliente, com tema de correios. O site tem três tipos de acesso: Cliente, Atendente e Administrador. Possui um chat e tickets, onde os funcionarios podem ajudar os clientes com seus problemas em relação a seus produtos.',
+        'imagem': '../static/Api2024.png'
+    },
    
 ]
 
