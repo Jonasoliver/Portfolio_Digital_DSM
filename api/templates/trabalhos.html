@@ -1,33 +1,57 @@
 {% extends 'base.html' %}
+
 {% block title %}
-Contatos
+    Trabalhos Realizados
 {% endblock %}
 
 {% block content %}
-
-<div class="container mt-5 text-center">
-    <h2>Trabalhos realizados por mim:</h2>
-    <p>Eu ainda não realizei nenhum trabalho ou projeto para alguma empresa, mas como aluno eu possuo alguns projetos, sejam pessoais ou em grupo.</p>
-</div>
-
-{% for trabalho in trabalhos %}
-    <div class="container mt-4 custom-section">
-        <div class="row text-center">
-            <div class="col-12">
-                <h2>{{ trabalho['titulo'] }}</h2>
-                <p>{{ trabalho['descricao'] }}</p>
-            </div>
-        </div>
+    <div class="container mt-5 text-center">
+        <h1 class="display-4 text-dark">Trabalhos Realizados</h1>
+        <p class="lead text-muted">Aqui estão alguns dos projetos que desenvolvi, tanto de forma individual quanto em grupo, durante minha jornada acadêmica.</p>
     </div>
-        <div class="container mt-3">
+
+    {% for trabalho in trabalhos %}
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <img src="{{ trabalho['imagem'] }}" alt="Foto do Trabalho" class="img-fluid rounded custom-imge">
+                <div class="col-12">
+                    <!-- Título do Trabalho -->
+                    <h3 class="text-primary font-weight-bold">{{ trabalho['titulo'] }}</h3>
+                    <p class="text-muted mb-4">{{ trabalho['descricao'] }}</p>
+
+                    <!-- Informações Tecnologias e Contribuições -->
+                    <div class="row text-left">
+                        <div class="col-md-6">
+                            <h5 class="font-weight-bold text-dark">Tecnologias:</h5>
+                            <p class="text-secondary">{{ trabalho['tecno'] }}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="font-weight-bold text-dark">{{ trabalho['contribuicao'] }}:</h5>
+                            <p class="text-secondary">{{ trabalho['cont'] }}</p>
+                        </div>
+                    </div>
+
+                    <!-- Informações de Hard e Soft Skills -->
+                    <div class="row text-left mt-4">
+                        <div class="col-md-6">
+                            <h5 class="font-weight-bold text-dark">Hard Skills:</h5>
+                            <p class="text-secondary">{{ trabalho['hardD'] }}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="font-weight-bold text-dark">Soft Skills:</h5>
+                            <p class="text-secondary">{{ trabalho['so'] }}</p>
+                        </div>
+                    </div>
+
+                    <!-- Imagem do Trabalho (com tamanho ajustado) -->
+                    <div class="mt-4">
+                        <img src="{{ trabalho['imagem'] }}" alt="Imagem do Trabalho" class="img-fluid rounded shadow-sm mx-auto d-block" style="max-width: 60%; height: auto;">
+                    </div>
                 </div>
             </div>
-        </div>
-    
-    <br>
-{% endfor %}
 
+            <!-- Linha de Separação entre os Projetos -->
+            <hr class="my-5">
+
+        </div>
+    {% endfor %}
 {% endblock %}

@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+
 {% block title %}
 Contatos
 {% endblock %}
@@ -6,37 +7,35 @@ Contatos
 {% block content %}
 <br>
 <div class="container text-center">
-    <h1>Sobre este Portfólio:</h1>
-    <p>Este portfólio apresentará quem sou eu, e quais são os trabalhos que já realizei, sejam acadêmicos, sejam profissionais. Também o que eu gosto de fazer, também queria apresentar um pouco sobre os projetos API's que foram desenvolvidos ao longo dos semestres.</p>
-        <br>
-        <h2>Ferramentas utilizadas:</h2>
+    <h1 class="fw-bold text-dark">Sobre este Portfólio:</h1>
+    <p class="text-muted mb-5">Este portfólio apresentará quem sou eu, e quais são os trabalhos que já realizei, sejam acadêmicos, sejam profissionais. Também o que eu gosto de fazer, além de mostrar alguns projetos de APIs que foram desenvolvidos ao longo dos semestres.</p>
+
+    <h2 class="fw-bold text-dark">Ferramentas utilizadas:</h2>
 </div>
+
 <br>
 
 <div class="container mt-4">
     <div class="row text-center">
-        <div class="col-6 col-md-3">
-            <h4>CSS<h4>
-            <img src="../static/css.png" alt="Imagem 1" class="img-fluid mb-2">
+        <div class="col-6 col-md-3 mb-4">
+            <h4 class="fw-bold text-dark">CSS</h4>
+            <img src="../static/css.png" alt="Imagem CSS" class="img-fluid mb-2" style="max-width: 80px;">
         </div>
-        <div class="col-6 col-md-3">
-            <h4>HTML<h4>
-            <img src="../static/html.png" alt="Imagem 2" class="img-fluid mb-2">
-            
+        <div class="col-6 col-md-3 mb-4">
+            <h4 class="fw-bold text-dark">HTML</h4>
+            <img src="../static/html.png" alt="Imagem HTML" class="img-fluid mb-2" style="max-width: 80px;">
         </div>
-        <div class="col-6 col-md-3">
-            <h4>FLASK<h4>
-            <img src="../static/flask.png" alt="Imagem 3" class="img-fluid mb-2">
+        <div class="col-6 col-md-3 mb-4">
+            <h4 class="fw-bold text-dark">FLASK</h4>
+            <img src="../static/flask.png" alt="Imagem Flask" class="img-fluid mb-2" style="max-width: 80px;">
         </div>
-        <div class="col-6 col-md-3">
-            <h4>PYTHON<h4>
-            <img src="../static/python.png" alt="Imagem 4" class="img-fluid mb-2">
-            
+        <div class="col-6 col-md-3 mb-4">
+            <h4 class="fw-bold text-dark">PYTHON</h4>
+            <img src="../static/python.png" alt="Imagem Python" class="img-fluid mb-2" style="max-width: 80px;">
         </div>
     </div>
 </div>
+
 <br>
-
-
 
 {% endblock %}
