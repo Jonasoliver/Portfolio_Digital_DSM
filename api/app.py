@@ -19,7 +19,7 @@ trabalhos = [
 },
 
 {
-    'titulo': 'Projeto API 2DSM',
+    'titulo': 'Projeto API 2DSM primeiro semestre de 2024',
     'descricao': 'O projeto API 2DSM foi desenvolvido com o objetivo de criar uma plataforma de atendimento ao cliente, focada em um sistema de gestão de tickets e chat em tempo real. Utilizando React no frontend, a aplicação oferece três tipos de acesso: Cliente, Atendente e Administrador. A interface foi construída para ser intuitiva e responsiva, utilizando HTML, CSS e Bootstrap, garantindo uma experiência fluida e adaptável a diferentes dispositivos. No backend, o sistema foi implementado com Node.js, garantindo a manipulação eficiente de requisições e comunicação com o banco de dados MySQL. A plataforma permite a criação e gestão de tickets, onde os atendentes podem auxiliar os clientes com seus problemas relacionados a produtos e serviços. A comunicação em tempo real, através do chat, proporciona uma interação direta e ágil entre usuários e atendentes, otimizando o atendimento. A aplicação também conta com uma estrutura robusta de autenticação e controle de acesso, assegurando que cada usuário tenha a experiência adequada conforme seu perfil. O desenvolvimento deste projeto proporcionou uma imersão no aprimoramento de habilidades em full-stack, integração de sistemas interativos e construção de interfaces altamente responsivas.',
     'tecnologias': 'Tecnologias utilizadas:',
     'tecno': 'Node.js, React, HTML, CSS, MySQL, JavaScript, Bootstrap',
@@ -33,7 +33,7 @@ trabalhos = [
 },
 
 {
-    'titulo': 'Projeto API 3DSM',
+    'titulo': 'Projeto API 3DSM segundo semestre de 2024',
     'descricao': 'O Projeto API 3DSM foi desenvolvido para o cliente AFAPG com o objetivo de criar um portal de transparência, onde são exibidos detalhadamente os gastos realizados com doações empresariais em projetos sociais. Utilizando o framework Spring no backend com Java, a aplicação oferece segurança e escalabilidade para o gerenciamento dos dados. A plataforma foi projetada para garantir que todas as informações financeiras sejam acessíveis ao público de forma clara e transparente, permitindo que os usuários visualizem os projetos realizados, os valores recebidos e como os recursos foram aplicados. A interface foi construída com React, garantindo uma experiência interativa e fluída, enquanto o banco de dados MySQL armazena as informações de maneira estruturada e segura. A autenticação é feita via JWT (JSON Web Token), garantindo que apenas usuários autorizados tenham acesso a funcionalidades específicas, como o gerenciamento de dados financeiros e projetos. A aplicação também foi desenvolvida com foco na segurança e privacidade dos dados, assegurando que informações sensíveis sejam protegidas durante todo o processo de navegação e interação.',
     'tecnologias': 'Tecnologias utilizadas:',
     'tecno': 'Java, Spring, React, MySQL, JWT',
@@ -43,7 +43,7 @@ trabalhos = [
     'hardD': 'Java, Spring, React, MySQL, JWT',
     'soft': 'Soft Skills Efetivamente desenvolvidas:',
     'so': 'Responsabilidade e foco em resultados. A criação de um portal de transparência exigiu uma grande atenção aos detalhes e a capacidade de assumir responsabilidades para garantir que as informações fossem apresentadas de forma clara, precisa e segura.',
-    'imagem': '../static/projeto 3dsm.png'
+    'imagem': '../static/projeto3dsm.png'
 },
 
    
